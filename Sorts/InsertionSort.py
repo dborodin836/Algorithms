@@ -1,9 +1,7 @@
 # Can be upgraded by using binary search
 def insertion_sorted(a_list: list):
     for i in range(1, len(a_list)):
-        if a_list[i - 1] <= a_list[i]:
-            continue
-        else:
+        if a_list[i - 1] > a_list[i]:
             for j in range(i, 0, -1):
                 if a_list[j - 1] > a_list[i]:
                     a_list[j - 1], a_list[i] = a_list[i], a_list[j - 1]
