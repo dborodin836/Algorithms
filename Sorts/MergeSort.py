@@ -55,10 +55,3 @@ def merge_sort(arr):
         merge_wo_methods(arr, L, R)
 
 
-# Driver Code
-if __name__ == '__main__':
-    arr = [5, 1, 0, 122, 12, -100, 200]
-    print("Given array is", end="\n")
-    merge_sort(arr)
-    print("Sorted array is: ", end="\n")
-    print(*arr)
