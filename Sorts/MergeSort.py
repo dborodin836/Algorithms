@@ -53,5 +53,3 @@ def merge_sort(arr):
         merge_sort(R)
 
         merge_wo_methods(arr, L, R)
-
-
